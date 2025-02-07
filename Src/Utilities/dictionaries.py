@@ -1,15 +1,15 @@
 import Src.Utilities.config as config
 SKY_DOMAIN = config.SKY_DOMAIN
 okru = {
-    "rai-1": "https://ok.ru/videoembed/7868570672752?nochat=1", 
-    "rai-2": "https://ok.ru/videoembed/7805618364016?nochat=1",
+    "rai-1": "https://ok.ru/videoembed/9340203179632?nochat=1", 
+    "rai-2": "https://ok.ru/videoembed/9267281010288?nochat=1",
     "canale-5": "https://ok.ru/videoembed/7871149252208?nochat=1",
     "italia-1": "https://ok.ru/videoembed/7393558339184?nochat=1",
     "rai-premium": "https://ok.ru/videoembed/7363152715376?nochat=1",
     "rai-movie": "https://ok.ru/videoembed/7384012693104?nochat=1",
-    "tv8": "https://ok.ru/videoembed/7681651777136?nochat=1",
+    "tv8": "https://ok.ru/videoembed/8077072998000?nochat=1",
     "rsi-la-2": "https://ok.ru/videoembed/7681648107120?nochat=1",
-    "mediaset-extra": "https://ok.ru/videoembed/7363152715376?nochat=1",
+    "mediaset-extra": "https://ok.ru/videoembed/7363151601264?nochat=1",
     "mediaset-infinity": "https://ok.ru/videoembed/6323249159792%3Fnochat=1"
 }
 
@@ -822,7 +822,19 @@ webru_dlhd = {
     "sky-cinema-suspence": "premium868",
     "sky-sport-253": "premium873",
     "sky-serie": "premium880",
-    "dazn-1": "premium877"
+    "dazn-1": "premium877",
+    "rai-1": "premium850",
+    "rai-2": "premium851",
+    "rai-3": "premium852",
+    "canale-5": "premium853",
+    "rai-sport": "premium882",
+    "rai-premium": "premium858",
+    "italia-1" : "premium854",
+    "la7": "premium855",
+    "la7d": "premium856",
+    "mediaset-20": "premium857",
+    "la5": "premium856",
+
 }
 extra_sources = {
     "rai-1": ["https://m3u.iranvids.com/rai01/output.m3u8"],
@@ -843,7 +855,8 @@ extra_sources = {
     "dmax": ["https://tvit.leicaflorianrobert.dev/discovery/dmax/stream.m3u8"],
     "nove": ["https://tvit.leicaflorianrobert.dev/discovery/nove/stream.m3u8"],
     "euronews": ["https://amg00882-amg00882c4-wedotv-eu-4536.playouts.now.amagi.tv/playlist/amg00882-euronewsfast-euronewsita-wedotveu/playlist.m3u8?app_bundle=&app_name=wedotv&app_store_url=https://wedotv.com&url=https://wedotv.com&gdpr=1&channel_name=Euronews - Italiano&content_custom_1_param=Euronews - Italiano"],
-    "doctor-who": ["https://amg00793-amg00793c17-samsung-it-4577.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-drwhoitaly-samsungit/playlist.m3u8"]
+    "doctor-who": ["https://amg00793-amg00793c17-samsung-it-4577.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-drwhoitaly-samsungit/playlist.m3u8"],
+    "supertennis": ["https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/h24_supertennix/manifest.m3u8"]
 }
 skystreaming ={
     "sky-sport-tennis": f"https://skystreaming.{SKY_DOMAIN}/embed/MKCKP",
